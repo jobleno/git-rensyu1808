@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import "compass";
+
+@import "default";
+@mixin fontsize($size: 24, $base: 16) {
+  font-size: $size + px;
+  font-size: ($size / $base) * 1rem;
+}
+//@include fontsize(12);
+//display: inline-block_fix---letter-spacing: -.40em;
+// @include inline-block;
+
+
+
+
